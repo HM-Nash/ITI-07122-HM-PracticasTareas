@@ -1,0 +1,176 @@
+Codigo:
+
+//Declaracion de variables de los nombres
+var nombre1:String = "Kevin";
+var nombre2:String = "Andrea";
+var nombre3:String = "Cristian";
+var nombre4:String = "Marysol";
+var nombre5:String = "Juan";
+var nombre6:String = "Monica";
+var nombre7:String = "Raul";
+var nombre8:String = "Kenya";
+var nombre9:String = "Alexis";
+var nombre10:String = "Miranda";
+
+//Declaracion de variables de la edad de los estudiantes
+var edad1:int = 18;
+var edad2:int = 19;
+var edad3:int = 21;
+var edad4:int = 27;
+var edad5:int = 19;
+var edad6:int = 22;
+var edad7:int = 29;
+var edad8:int = 23;
+var edad9:int = 26;
+var edad10:int = 18;
+
+//Declaracion de variables de la matricula de los estudiantes
+var mat1:int = 1783;
+var mat2:int = 1756;
+var mat3:int = 1721;
+var mat4:int = 1778;
+var mat5:int = 1731;
+var mat6:int = 1790;
+var mat7:int = 1792;
+var mat8:int = 1717;
+var mat9:int = 1729;
+var mat10:int = 1797;
+
+//Declaracion de variables de la carrera de los estudiantes
+var carr1:String = "ITI";
+var carr2:String = "PYMES";
+var carr3:String = "ISA";
+var carr4:String = "ITM";
+var carr5:String = "ITI";
+var carr6:String = "PYMES";
+var carr7:String = "ITI";
+var carr8:String = "IM";
+var carr9:String = "ISA";
+var carr10:String = "ITM";
+
+//Declaracion de variables de fecha de nacimiento
+var fech1:String = "21/08/99";
+var fech2:String = "25/07/98";
+var fech3:String = "12/03/96";
+var fech4:String = "04/04/90";
+var fech5:String = "21/06/98";
+var fech6:String = "06/02/95";
+var fech7:String = "25/10/89";
+var fech8:String = "17/11/94";
+var fech9:String = "29/08/92";
+var fech10:String = "23/12/99";
+
+//Declaracion de variables de sexo
+var sex1:String = "M";
+var sex2:String = "F";
+var sex3:String = "M";
+var sex4:String = "F";
+var sex5:String = "M";
+var sex6:String = "F";
+var sex7:String = "M";
+var sex8:String = "F";
+var sex9:String = "M";
+var sex10:String = "F";
+
+//Declaracion de variables de sueldo
+var suel1:Number = 15500;
+var suel2:Number = 12300;
+var suel3:Number = 17200;
+var suel4:Number = 19000;
+var suel5:Number = 11800;
+var suel6:Number = 13500;
+var suel7:Number = 16400;
+var suel8:Number = 16000;
+var suel9:Number = 17500;
+var suel10:Number = 12500;
+
+//Declaracion de variables domicilio
+var dom1:String = "Las brisas, num.1122";
+var dom2:String = "Los pinos, num.1452";
+var dom3:String = "La modelo, num.1332";
+var dom4:String = "Amalia G, num.1172";
+var dom5:String = "Campestre, num.1232";
+var dom6:String = "Adelitas, num.1842";
+var dom7:String = "La berta, num.1356";
+var dom8:String = "Las flores, num.1188";
+var dom9:String = "Las vegas, num.1189";
+var dom10:String = "La moderna, num.2132";
+
+//Declaracion de variables de email
+var email1:String = "Kevin@gmail.com";
+var email2:String = "Andrea@gmail.com";
+var email3:String = "Cristian@gmail.com";
+var email4:String = "Marysol@gmail.com";
+var email5:String = "Juan@gmail.com";
+var email6:String = "Monica@gmail.com";
+var email7:String = "Raul@gmail.com";
+var email8:String = "Kenya@gmail.com";
+var email9:String = "Alexis@gmail.com";
+var email10:String = "Miranda@gmail.com";
+
+//Declaracion de hora de registro
+var hora1:Number = 11.05;
+var hora2:Number = 12.05;
+var hora3:Number = 15.35;
+var hora4:Number = 12.53;
+var hora5:Number = 11.37;
+var hora6:Number = 12.04;
+var hora7:Number = 12.21;
+var hora8:Number = 10.58;
+var hora9:Number = 12.59;
+var hora10:Number = 13.05;
+
+//Uso de condiciones
+if(hora1>=12.05 && hora1<=12.59){
+	trace ("Bienvenido!, Kevin");
+}
+if(hora2>=12.05 && hora2<=12.59){
+	trace ("Bienvenida!, Andrea");
+}
+if(hora3>=12.05 && hora3<=12.59){
+	trace ("Bienvenido!, Cristian");
+}
+if(hora4>=12.05 && hora4<=12.59){
+	trace ("Bienvenida!, Marysol");
+}
+if(hora5>=12.05 && hora5<=12.59){
+	trace ("Bienvenido!, Juan");
+}
+if(hora6>=12.05 && hora6<=12.59){
+	trace ("Bienvenida!, Monica");
+}
+if(hora7>=12.05 && hora7<=12.59){
+	trace ("Bienvenido!, Raul");
+}
+if(hora8>=12.05 && hora8<=12.59){
+	trace ("Bienvenida!, Kenya");
+}
+if(hora9>=12.05 && hora9<=12.59){
+	trace ("Bienvenido!, Alexis");
+}
+if(hora10>=12.05 && hora10<=12.59){
+	trace ("Bienvenido!, Miranda");
+}
+
+//Promedio de edad
+var promedioEdad: int = (edad1+edad2+edad3+edad4+edad5+edad6+edad7+edad8+edad9+edad10)/10;
+
+if (promedioEdad>23){
+	trace ("Edad NO joven!");
+}
+//Nomina de las empleadas
+if(suel2>=10000 && suel2<=50000){
+	trace ("La nomina de ella es: $"+suel2);
+}
+if(suel4>=10000 && suel2<=50000){
+	trace ("La nomina de ella es: $"+suel4);
+}
+if(suel6>=10000 && suel2<=50000){
+	trace ("La nomina de ella es: $"+suel6);
+}
+if(suel8>=10000 && suel2<=50000){
+	trace ("La nomina de ella es: $"+suel8);
+}
+if(suel10>=10000 && suel2<=50000){
+	trace ("La nomina de ella es: $"+suel10);
+}
